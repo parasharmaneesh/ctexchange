@@ -40,7 +40,7 @@ Run test
   mvn test
 ```
 
-##Start the application without docker
+## Start the application without docker
 
 ```bash
   mvn spring-boot:run
