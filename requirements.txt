@@ -1,0 +1,22 @@
+
+*Requirements*
+
+- Spring Boot Framework should be used.
+- You should create a new Java Application and deliver the code, APIs and API documentation.
+ (Feel free to use the database of your choice, and you may use any frameworks/submodules within Spring Boot)
+- Each implementation should be equipped with unit tests.
+- A Read-Me file should be provided which describes the details to run the program and setup database.
+- Bonus points: If you can use Docker/Docker-Compose to run your application.
+
+*Scenario*
+
+Create a pricing algorithm for Bitcoin.
+
+The price starts from 100 USD and increases by 10 USD every 5 seconds for the first 3 minutes. At the 3 min period, it should reach 460 USD. Then it should decrease by 10 USD every 5 seconds for the next 3 minutes. At the 6 min period, the price is 100 USD. This cycle keeps repeating continuously.
+
+Application User Stories:
+- As a user, I want to be able to add new users for the platform by name and email address.
+- As a user, I want to receive 1,000 USD in my account when I create a new user account successfully.
+- As a user, I want to be able to buy and sell BTC at the current price.
+- As a user, I want to be able to see my transaction history, which includes the price of BTC and the balance of BTC and USD.
+- As a user, I want to be able to delete the existing users.
